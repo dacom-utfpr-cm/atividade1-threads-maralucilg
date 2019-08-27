@@ -9,7 +9,7 @@ public class ThreadSleepEx implements Runnable {
 			
 					
 				try {
-					Thread.sleep((long)(Math.random() * 10000));
+					//Thread.sleep((long)(Math.random() * 10000));
 					System.out.println( "Nome = " + Thread.currentThread( ).getName( ));
 					System.out.println("May the force be with you!");
 				} catch (InterruptedException e) {

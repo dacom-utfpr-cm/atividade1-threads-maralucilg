@@ -43,7 +43,7 @@ public class ThreadArquivo implements Runnable {
 		}
 	
 		
-		
+		s.close();
 		
 	}
 
